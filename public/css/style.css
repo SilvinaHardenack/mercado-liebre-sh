@@ -6,6 +6,7 @@ body {
     font-family: 'Roboto';
 }
 
+/********************Estilos del header********************/
 .main-header {
 background-color: #EAC926;
 padding: 20px;
@@ -45,3 +46,14 @@ width: 200px;
     padding: 5px 0px;
     font-size: 17px;
 }
+
+/********************Estilos del main********************/
+
+
+
+/********************Estilos del footer********************/
+footer {
+    text-align: center;
+    color:#666;
+}
+
