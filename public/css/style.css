@@ -1,7 +1,47 @@
-header {
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+.main-header {
 background-color: #EAC926;
+padding: 20px;
 }
 
 .logo {
-width: 30vh;
+width: 200px;
+}
+
+.copy-header {
+    font-weight: 400;
+    text-align: center;
+}
+
+.hamburguer-button {
+    background-color: #03264C;
+    color: #ffff;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+}
+
+.main-nav-bar ul {
+    list-style: none;
+    margin:0%;
+    padding: 0%;
+}
+
+.main-nav-bar a {
+    text-decoration: none;
+    color:black;
+    display: inline-block;
+    padding: 5px 0px;
+    font-size: 17px;
 }
